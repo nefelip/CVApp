@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Pappa Nefeli - Engineer</string>
+
+    <!-- top text personal info list-->
+    <string name="tel">+030 6982584329</string>
+    <string name="email">npappa@live.com</string>
+    <string name="address">33 Erisihthonos st., Athens, Greece</string>
+    <string name="birthday">17 February 1988</string>
+    <string name="driversLicence"> B, A2</string>
+
+
+    <!-- Left side titles-->
+    <string name="contact">Contact</string>
+    <string name="note">Personal Note</string>
+    <string name="exp">Experience</string>
+    <string name="skills">Skills</string>
+    <string name="education">Education</string>
+    <string name="languages">Languages</string>
+
+
+    <!-- personal note-->
+    <string name="personalNote">In the past I have worked mostly with PHP, javascript and SQL languages. I also have some experience with JAVA and android Development , where I would like to invest more time to improve my skills. I hold an interest in working with different projects and I am intrigued by the idea of working with new technologies and I welcome any opportunity to walk out of my comfort zone.</string>
+
+    <!-- experience-->
+    <string name="experience1">All About Business - 94 Aiolou St. , Athens,Greece</string>
+    <string name="position1">WEB DEVELOPER</string>
+    <string name="date1">April 2016 ─ May 2018</string>
+    <string name="experience2">Altec Software - 12 Patmou St. , Athens,Greece</string>
+    <string name="position2">WEB DEVELOPER</string>
+    <string name="date2">September 2013 ─ August 2015</string>
+    <string name="experience3">Attica Bank - 376 Patision St. , Athens,Greece</string>
+    <string name="position3">HELP DESC</string>
+    <string name="date3">April 2011 ─ September 2011</string>
+
+    <!-- education-->
+    <string name="institute1">Educational Institute of Lamia</string>
+    <string name="title1">INFORMATICS AND COMPUTER TECHNOLOGY ENGINEERS</string>
+    <string name="dates1">September 2005 ─ March 2012</string>
+    <string name="institute2">FIt4Jobs by HePIS: Hellenic Professional Informatics Society</string>
+    <string name="title2">WEB DEVELOPMENT WITH SPECIALIZATION IN JAVA, JSP SERVLETS AND MYSQL</string>
+    <string name="dates2">January 2016 ─ April 2016</string>
+    <string name="institute3">Nanodegry Program By Google</string>
+    <string name="title3">Android Basics</string>
+    <string name="dates3">June 2018 ─ November 2018</string>
+
+
+    <!-- skils-->
+    <string name="skillsHTML5">HTML5</string>
+    <string name="skillsCSS3">CSS3</string>
+    <string name="skillsJSONXML">JSON/XML</string>
+    <string name="skillsJscriptJqueryAJAX">Jscript/Jquery/AJAX</string>
+    <string name="skillsMySQLSQLite">MySQL/SQLite</string>
+    <string name="skillsPHP">PHP</string>
+    <string name="skillsJava">Java</string>
+    <string name="skillsAndroid">Android</string>
+    <string name="skillsPhotoshop">Photoshop</string>
+    <string name="skillsjoomla">joomla!</string>
+    <string name="skillswordpress">wordpress</string>
+    <string name="skillsBootstrap">Bootstrap</string>
+
+    <!-- languages-->
+    <string name="lang1">GREEK</string>
+    <string name="lvl1">Native</string>
+    <string name="certificate1">-</string>
+    <string name="lang2">ENGLISH</string>
+    <string name="lvl2">C2</string>
+    <string name="certificate2">Cambridge ESOL</string>
+    <string name="lang3">JAPANESE</string>
+    <string name="lvl3">B2</string>
+    <string name="certificate3">JLPT N3</string>
+    <string name="lang4">KOREAN</string>
+    <string name="lvl4">Beginner</string>
+    <string name="certificate4">-</string>
+
+</resources>

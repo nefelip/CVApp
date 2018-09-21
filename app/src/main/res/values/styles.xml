@@ -1,0 +1,201 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- outer linearlayout personal info list -->
+    <style name="OuterLinearContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">8sp</item>
+    </style>
+
+    <!-- inner linearlayout personal info list -->
+    <style name="InnerLinearContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">6sp</item>
+    </style>
+
+    <!-- vertical list -->
+    <style name="ListTypeLinearContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- horisontal list -->
+    <style name="LanguageLinearContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- horisontal hr -->
+    <style name="horisontalLine">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:layout_margin">8sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- top imag style-->
+    <style name="PersonalPhotoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250sp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Left titles styles-->
+    <style name="LeftSideTitles">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">4sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- text personal info list-->
+    <style name="ContactAndInfoTexts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8sp</item>
+    </style>
+
+    <!-- icons personal info list -->
+    <style name="ContactAndInfoIcons">
+        <item name="android:layout_width">20sp</item>
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <!-- text personal info list-->
+    <style name="PlaneTextsSide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8sp</item>
+    </style>
+
+    <!-- experience list-->
+    <style name="companyTextPlaneTextsSide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="positionTextPlaneTextsSide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+    </style>
+    <style name="dateTextPlaneTextsSide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- skills list-->
+    <style name="SkilsTextExelent">
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_width">300sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="SkilsTextGood">
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_width">250sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="SkilsTextMedium">
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_width">200sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="SkilsTextTrying">
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_width">150sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="SkilsTextLearning">
+        <item name="android:layout_height">20sp</item>
+        <item name="android:layout_width">100sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <!-- experience list-->
+    <style name="languageTextPlaneTextsSide">
+        <item name="android:layout_width">100sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="certificateTextPlaneTextsSide">
+        <item name="android:layout_width">80sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+    </style>
+    <style name="durationTextPlaneTextsSide">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

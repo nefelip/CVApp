@@ -1,0 +1,450 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/bioMainPhotoTop"
+        app:srcCompat="@drawable/nefeli"
+        style="@style/PersonalPhotoStyle"
+        />
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleContact"
+            android:text="@string/contact"
+            style="@style/LeftSideTitles"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/InnerLinearContainer">
+
+                <ImageView
+                    android:id="@+id/imageViewTel"
+                    app:srcCompat="@mipmap/ic_tel"
+                    style="@style/ContactAndInfoIcons"/>
+                <TextView
+                    android:id="@+id/textViewTel"
+                    android:text="@string/tel"
+                    style="@style/ContactAndInfoTexts"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InnerLinearContainer">
+
+                <ImageView
+                    android:id="@+id/imageViewEmail"
+                    app:srcCompat="@mipmap/ic_email"
+                    style="@style/ContactAndInfoIcons"/>
+                <TextView
+                    android:id="@+id/textViewEmail"
+                    android:text="@string/email"
+                    style="@style/ContactAndInfoTexts"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InnerLinearContainer">
+
+                <ImageView
+                    android:id="@+id/imageViewAddress"
+                    app:srcCompat="@mipmap/ic_address"
+                    style="@style/ContactAndInfoIcons"/>
+                <TextView
+                    android:id="@+id/textViewAddress"
+                    android:text="@string/address"
+                    style="@style/ContactAndInfoTexts"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InnerLinearContainer">
+
+                <ImageView
+                    android:id="@+id/imageViewBirthday"
+                    app:srcCompat="@mipmap/ic_birthday"
+                    style="@style/ContactAndInfoIcons"/>
+                <TextView
+                    android:id="@+id/textViewBirthday"
+                    android:text="@string/birthday"
+                    style="@style/ContactAndInfoTexts"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InnerLinearContainer">
+
+                <ImageView
+                    android:id="@+id/imageViewMoto"
+                    app:srcCompat="@mipmap/ic_moto"
+                    style="@style/ContactAndInfoIcons"/>
+                <TextView
+                    android:id="@+id/textViewDriversLicense"
+                    android:text="@string/driversLicence"
+                    style="@style/ContactAndInfoTexts"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleNote"
+            android:text="@string/note"
+            style="@style/LeftSideTitles"
+            />
+        <TextView
+            android:id="@+id/textViewNote"
+            android:text="@string/personalNote"
+            style="@style/PlaneTextsSide"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleEperience"
+            android:text="@string/exp"
+            style="@style/LeftSideTitles"
+            />
+        <LinearLayout
+            style="@style/ListTypeLinearContainer">
+
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textViewexp1"
+                    android:text="@string/experience1"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/pos1"
+                    android:text="@string/position1"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/date1"
+                    android:text="@string/date1"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textViewexp2"
+                    android:text="@string/experience2"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/pos2"
+                    android:text="@string/position2"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/date2"
+                    android:text="@string/date2"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textViewexp3"
+                    android:text="@string/experience3"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/pos3"
+                    android:text="@string/position3"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/date3"
+                    android:text="@string/date3"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleEducation"
+            android:text="@string/education"
+            style="@style/LeftSideTitles"
+            />
+        <LinearLayout
+            style="@style/ListTypeLinearContainer">
+
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textInstitute3"
+                    android:text="@string/institute3"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textTitle3"
+                    android:text="@string/title3"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textDates3"
+                    android:text="@string/dates3"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textInstitute2"
+                    android:text="@string/institute2"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textTitle2"
+                    android:text="@string/title2"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textDates2"
+                    android:text="@string/dates2"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ListTypeLinearContainer">
+
+                <TextView
+                    android:id="@+id/textInstitute1"
+                    android:text="@string/institute1"
+                    style="@style/companyTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textTitle1"
+                    android:text="@string/title1"
+                    style="@style/positionTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textDates1"
+                    android:text="@string/dates1"
+                    style="@style/dateTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleSkils"
+            android:text="@string/skills"
+            style="@style/LeftSideTitles"
+            />
+        <LinearLayout
+            style="@style/ListTypeLinearContainer">
+
+            <TextView
+                android:id="@+id/textViewSkills1"
+                android:text="@string/skillsHTML5"
+                style="@style/SkilsTextExelent"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills2"
+                android:text="@string/skillsCSS3"
+                style="@style/SkilsTextGood"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills3"
+                android:text="@string/skillsJSONXML"
+                style="@style/SkilsTextExelent"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills4"
+                android:text="@string/skillsJscriptJqueryAJAX"
+                style="@style/SkilsTextGood"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills5"
+                android:text="@string/skillsMySQLSQLite"
+                style="@style/SkilsTextExelent"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills6"
+                android:text="@string/skillsPHP"
+                style="@style/SkilsTextExelent"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills7"
+                android:text="@string/skillsJava"
+                style="@style/SkilsTextMedium"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills8"
+                android:text="@string/skillsAndroid"
+                style="@style/SkilsTextTrying"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills9"
+                android:text="@string/skillsPhotoshop"
+                style="@style/SkilsTextLearning"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills10"
+                android:text="@string/skillsjoomla"
+                style="@style/SkilsTextGood"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills11"
+                android:text="@string/skillswordpress"
+                style="@style/SkilsTextGood"
+                />
+
+            <TextView
+                android:id="@+id/textViewSkills12"
+                android:text="@string/skillsBootstrap"
+                style="@style/SkilsTextExelent"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/OuterLinearContainer">
+
+        <TextView
+            android:id="@+id/textViewTitleLanguages"
+            android:text="@string/languages"
+            style="@style/LeftSideTitles"
+            />
+        <LinearLayout
+            style="@style/ListTypeLinearContainer">
+
+            <LinearLayout
+                style="@style/LanguageLinearContainer">
+
+                <TextView
+                    android:id="@+id/textLanguage1"
+                    android:text="@string/lang1"
+                    style="@style/languageTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textlevel1"
+                    android:text="@string/lvl1"
+                    style="@style/certificateTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textcert1"
+                    android:text="@string/certificate1"
+                    style="@style/durationTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LanguageLinearContainer">
+
+                <TextView
+                    android:id="@+id/textLanguage2"
+                    android:text="@string/lang2"
+                    style="@style/languageTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textlevel2"
+                    android:text="@string/lvl2"
+                    style="@style/certificateTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textcert2"
+                    android:text="@string/certificate2"
+                    style="@style/durationTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LanguageLinearContainer">
+
+                <TextView
+                    android:id="@+id/textLanguage3"
+                    android:text="@string/lang3"
+                    style="@style/languageTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textlevel3"
+                    android:text="@string/lvl3"
+                    style="@style/certificateTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textcert3"
+                    android:text="@string/certificate3"
+                    style="@style/durationTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LanguageLinearContainer">
+
+                <TextView
+                    android:id="@+id/textLanguage4"
+                    android:text="@string/lang4"
+                    style="@style/languageTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textlevel4"
+                    android:text="@string/lvl4"
+                    style="@style/certificateTextPlaneTextsSide"
+                    />
+                <TextView
+                    android:id="@+id/textcert4"
+                    android:text="@string/certificate4"
+                    style="@style/durationTextPlaneTextsSide"
+                    android:layout_marginBottom="20sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
